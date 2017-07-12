@@ -2,10 +2,10 @@ import React,{Component} from 'react';
 
 const Header = ()=>{
   return (
-  <nav className="nav navbar-default">
+  <nav className="nav navbar-default navbar-fixed-top">
     <div className="container-fluid">
       <div className="navbar-header">
-        <a href="#">Brand</a>
+        <a href="/" className="navbar-brand">Brand</a>
       </div>
     </div>
   </nav>
