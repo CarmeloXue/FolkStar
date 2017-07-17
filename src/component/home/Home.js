@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/HomePage.css'
 
 const HomePage = ()=>{
   return (
@@ -8,13 +9,13 @@ const HomePage = ()=>{
       <Link to="about" classNameName="btn btn-primary">Learn More</Link>
     </div>*/
    <div className="container">
-     <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+     <div id="work-carousel" className="carousel slide" data-ride="carousel">
 
        <ol className="carousel-indicators">
-         <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
-         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+         <li data-target="#work-carousel" data-slide-to="0" className="active"></li>
+         <li data-target="#work-carousel" data-slide-to="1"></li>
+         <li data-target="#work-carousel" data-slide-to="2"></li>
+         <li data-target="#work-carousel" data-slide-to="3"></li>
        </ol>
 
        <div className="carousel-inner" role="listbox">
@@ -44,11 +45,11 @@ const HomePage = ()=>{
          </div>
        </div>
 
-       <a className="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+       <a className="left carousel-control" href="#work-carousel" role="button" data-slide="prev">
          <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
          <span className="sr-only">Previous</span>
        </a>
-       <a className="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+       <a className="right carousel-control" href="#work-carousel" role="button" data-slide="next">
          <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
          <span className="sr-only">Next</span>
        </a>
