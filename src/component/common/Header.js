@@ -9,6 +9,8 @@ const Header = ()=>{
       <ul className="nav navbar-nav">
         <li><a>Page One</a></li>
         <li><a>Page Two</a></li>
+        <li><a>Page Three</a></li>
+        <li><a>Page Four</a></li>
       </ul>
 
       <ul className="nav navbar-nav navbar-right">
