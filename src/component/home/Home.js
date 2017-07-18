@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/HomePage.css'
+import '../../styles/HomePage.css';
 
 const HomePage = ()=>{
   return (
@@ -20,27 +20,27 @@ const HomePage = ()=>{
 
        <div className="carousel-inner" role="listbox">
          <div className="item active">
-           <img src={require('../../img/kobe.jpg')} alt="..."/>
+           <img src={require('../../img/Calligraphy/Qibaishi/秋叶草虫.jpg')} alt="..."/>
            <div className="carousel-caption">
-             Kobe Bryant
+             秋叶草虫
            </div>
          </div>
          <div className="item">
-           <img src={require("../../img/curry.png")} alt="..."/>
+           <img src={require("../../img/Calligraphy/Qibaishi/贝叶草虫4.jpg")} alt="..."/>
            <div className="carousel-caption">
-             Stephan Curry
+             贝叶草虫
            </div>
          </div>
          <div className="item">
-           <img src={require("../../img/lbj.jpg")} alt="..."/>
+           <img src={require("../../img/Calligraphy/Qibaishi/贝叶蝉.jpg")} alt="..."/>
            <div className="carousel-caption">
-             Lebron James
+             贝叶禅
            </div>
          </div>
          <div className="item">
-           <img src={require("../../img/ws.jpg")} alt="..."/>
+           <img src={require("../../img/Calligraphy/Qibaishi/丝瓜小蜂.jpg")} alt="..."/>
            <div className="carousel-caption">
-             Russell Westbrook
+             丝瓜小蜂
            </div>
          </div>
        </div>
