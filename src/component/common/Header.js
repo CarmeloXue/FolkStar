@@ -4,13 +4,14 @@ const Header = ()=>{
   <nav className="nav navbar-default navbar-fixed-top">
     <div className="container-fluid">
       <div className="navbar-header">
-        <a href="/" className="navbar-brand">Brand</a>
+        <a className="navbar-brand">FolkStar</a>
       </div>
       <ul className="nav navbar-nav">
-        <li><a>Page One</a></li>
-        <li><a>Page Two</a></li>
-        <li><a>Page Three</a></li>
-        <li><a>Page Four</a></li>
+        <li><a href="/">首页</a></li>
+        <li><a href="calligraphy">书法</a></li>
+        <li><a href="painting">国画</a></li>
+        <li><a href="handcraft">手工艺</a></li>
+        <li><a href="about">关于</a></li>
       </ul>
 
       <ul className="nav navbar-nav navbar-right">
