@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const PaintingPage = ()=>{
   return(
@@ -7,7 +7,7 @@ const PaintingPage = ()=>{
         <h1>中国国画荟萃</h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default PaintingPage;
