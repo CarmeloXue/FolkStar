@@ -1,13 +1,9 @@
 import React from 'react';
 import '../../styles/HomePage.css';
+import {Carousel} from 'react-bootstrap';
 
 const HomePage = ()=>{
   return (
-    /*<div classNameName="jumbotron">
-      <h1>Folk Star</h1>
-      <p>Every Folk is a shiny Star</p>
-      <Link to="about" classNameName="btn btn-primary">Learn More</Link>
-    </div>*/
    <div className="container">
      <div id="work-carousel" className="carousel slide" data-ride="carousel">
 
