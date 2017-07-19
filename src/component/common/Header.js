@@ -8,9 +8,9 @@ const Header = ()=>{
       </div>
       <ul className="nav navbar-nav">
         <li><a href="/">首页</a></li>
-        <li><a href="calligraphy">书法</a></li>
-        <li><a href="painting">国画</a></li>
-        <li><a href="handcraft">手工艺</a></li>
+        <li><a href="bowu">博物</a></li>
+        <li><a href="sixue">思学</a></li>
+        <li><a href="zhengui">珍柜</a></li>
         <li><a href="about">关于</a></li>
       </ul>
 

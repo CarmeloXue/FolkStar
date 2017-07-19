@@ -1,13 +1,13 @@
 import React from 'react';
 
-const SixuePage = ()=>{
+const ZhenguiPage = ()=>{
   return(
     <div className="jumbotron">
       <div className="container">
-        <h1>主要介绍传统文化课程</h1>
+        <h1>类似一个小型线上艺术品博物馆</h1>
       </div>
     </div>
   );
 };
 
-export default SixuePage;
+export default ZhenguiPage;
