@@ -25,8 +25,8 @@ const Header = ()=>{
         </Nav>
 
         <Nav pullRight>
-          <NavItem eventKey={1} href="#">登录</NavItem>
-          <NavItem eventKey={2} href="#">注册</NavItem>
+          <NavItem eventKey={1} href="signin">登录</NavItem>
+          <NavItem eventKey={2} href="signup">注册</NavItem>
         </Nav>
 
         <Navbar.Form pullRight>
