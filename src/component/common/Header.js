@@ -1,20 +1,21 @@
 import React,{Component} from 'react';
-import {Navbar, Nav, NavItem,NavDropdown,MenuItem} from 'react-bootstrap';
+import {Navbar, Nav, NavItem,NavDropdown,MenuItem,FormControl,FormGroup,Button} from 'react-bootstrap';
 
 const Header = ()=>{
   return (
-<Navbar inverse collapseOnSelect>
+    <Navbar inverse collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#">React-Bootstrap</a>
+          <a href="/">FolkStar</a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="#">Link</NavItem>
-          <NavItem eventKey={2} href="#">Link</NavItem>
-          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+          <NavItem eventKey={1} href="./bowu">博物</NavItem>
+          <NavItem eventKey={2} href="sixue">思学</NavItem>
+          <NavItem eventKey={3} href="zhengui">珍柜</NavItem>
+          <NavDropdown eventKey={3} title="关于" id="basic-nav-dropdown">
             <MenuItem eventKey={3.1}>Action</MenuItem>
             <MenuItem eventKey={3.2}>Another action</MenuItem>
             <MenuItem eventKey={3.3}>Something else here</MenuItem>
@@ -22,10 +23,19 @@ const Header = ()=>{
             <MenuItem eventKey={3.3}>Separated link</MenuItem>
           </NavDropdown>
         </Nav>
+
         <Nav pullRight>
-          <NavItem eventKey={1} href="#">Link Right</NavItem>
-          <NavItem eventKey={2} href="#">Link Right</NavItem>
+          <NavItem eventKey={1} href="signin">登录</NavItem>
+          <NavItem eventKey={2} href="signup">注册</NavItem>
         </Nav>
+
+        <Navbar.Form pullRight>
+          <FormGroup>
+            <FormControl type="text" placeholder="搜索" />
+          </FormGroup>
+          {' '}
+          <Button type="submit">提交</Button>
+        </Navbar.Form>
       </Navbar.Collapse>
     </Navbar>
 
@@ -36,9 +46,9 @@ const Header = ()=>{
       </div>
       <ul classNameName="nav navbar-nav">
         <li><a href="/">首页</a></li>
-        <li><a href="calligraphy">书法</a></li>
-        <li><a href="painting">国画</a></li>
-        <li><a href="handcraft">手工艺</a></li>
+        <li><a href="bowu">博物</a></li>
+        <li><a href="sixue">思学</a></li>
+        <li><a href="zhengui">珍柜</a></li>
         <li><a href="about">关于</a></li>
       </ul>
 
@@ -56,7 +66,7 @@ const Header = ()=>{
 
     </div>
   </nav>*/
-  )
-}
-export default Header
+  );
+};
+export default Header;
 

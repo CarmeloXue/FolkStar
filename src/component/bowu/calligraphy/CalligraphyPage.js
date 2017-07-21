@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const CalligraphyPage = ()=>{
   return(
@@ -7,7 +7,7 @@ const CalligraphyPage = ()=>{
         <h1>中国书法荟萃</h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CalligraphyPage;

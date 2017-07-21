@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const HandCraftPage = ()=>{
   return(
@@ -7,7 +7,7 @@ const HandCraftPage = ()=>{
         <h1>中国手工艺荟萃</h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HandCraftPage;
