@@ -1,63 +1,47 @@
 import React from 'react';
+import Swiper from 'swiper';
 import '../../styles/HomePage.css';
 
-const HomePage = ()=>{
-  return (
-    /*<div classNameName="jumbotron">
-      <h1>Folk Star</h1>
-      <p>Every Folk is a shiny Star</p>
-      <Link to="about" classNameName="btn btn-primary">Learn More</Link>
-    </div>*/
-   <div className="container">
-     <div id="work-carousel" className="carousel slide" data-ride="carousel">
+class HomePage extends React.Component{
 
-       <ol className="carousel-indicators">
-         <li data-target="#work-carousel" data-slide-to="0" className="active"></li>
-         <li data-target="#work-carousel" data-slide-to="1"></li>
-         <li data-target="#work-carousel" data-slide-to="2"></li>
-         <li data-target="#work-carousel" data-slide-to="3"></li>
-       </ol>
+  constructor(props){
+    super(props)
+  }
 
-       <div className="carousel-inner" role="listbox">
-         <div className="item active">
-           <img src={require('../../img/Chinese Painting/Qibaishi/秋叶草虫.jpg')} alt="..."/>
-           <div className="carousel-caption">
-             秋叶草虫
-           </div>
-         </div>
-         <div className="item">
-           <img src={require("../../img/Chinese Painting/Qibaishi/贝叶草虫4.jpg")} alt="..."/>
-           <div className="carousel-caption">
-             贝叶草虫
-           </div>
-         </div>
-         <div className="item">
-           <img src={require("../../img/Chinese Painting/Qibaishi/贝叶蝉.jpg")} alt="..."/>
-           <div className="carousel-caption">
-             贝叶禅
-           </div>
-         </div>
-         <div className="item">
-           <img src={require("../../img/Chinese Painting/Qibaishi/丝瓜小蜂.jpg")} alt="..."/>
-           <div className="carousel-caption">
-             丝瓜小蜂
-           </div>
-         </div>
-       </div>
+  componentDidMount(){
+    let swiper = new Swiper(".swiper-container",{
+      autoplay:1000,
+      pagination:'.swiper-pagination',
+      paginationType:"bullets",
+      nextButton:'.swiper-button-next',
+      prevButton:'.swiper-button-prev',
+      loop:true
+    })
+  }
 
-       <a className="left carousel-control" href="#work-carousel" role="button" data-slide="prev">
-         <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-         <span className="sr-only">Previous</span>
-       </a>
-       <a className="right carousel-control" href="#work-carousel" role="button" data-slide="next">
-         <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-         <span className="sr-only">Next</span>
-       </a>
+  render(){
+    return(
+      <div className="swiper-container">
 
-     </div>
-   </div>
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">
+            <img src={require("../../img/Painting/Qibaishi/q1.jpg")} alt=""/>
+          </div>
+          <div className="swiper-slide">
+            <img src={require("../../img/Painting/Qibaishi/q2.jpg")} alt=""/>
+          </div>
+          <div className="swiper-slide">
+            <img src={require("../../img/Painting/Qibaishi/q3.jpg")} alt=""/>
+          </div>
+        </div>
 
-  );
-};
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
+
+        <div className="swiper-pagination"></div>
+      </div>
+    )
+  }
+}
 
 export default HomePage;

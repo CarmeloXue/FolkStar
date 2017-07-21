@@ -3,7 +3,7 @@ import {Navbar, Nav, NavItem,NavDropdown,MenuItem} from 'react-bootstrap';
 
 const Header = ()=>{
   return (
-    <Navbar inverse collapseOnSelect>
+<Navbar inverse collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="#">React-Bootstrap</a>
@@ -29,12 +29,12 @@ const Header = ()=>{
       </Navbar.Collapse>
     </Navbar>
 
- /* <nav className="nav navbar-default navbar-fixed-top">
-    <div className="container-fluid">
-      <div className="navbar-header">
-        <a className="navbar-brand">FolkStar</a>
+ /* <nav classNameName="nav navbar-default navbar-fixed-top">
+    <div classNameName="container-fluid">
+      <div classNameName="navbar-header">
+        <a classNameName="navbar-brand">FolkStar</a>
       </div>
-      <ul className="nav navbar-nav">
+      <ul classNameName="nav navbar-nav">
         <li><a href="/">首页</a></li>
         <li><a href="calligraphy">书法</a></li>
         <li><a href="painting">国画</a></li>
@@ -42,15 +42,15 @@ const Header = ()=>{
         <li><a href="about">关于</a></li>
       </ul>
 
-      <ul className="nav navbar-nav navbar-right">
+      <ul classNameName="nav navbar-nav navbar-right">
         <li><a>Login</a></li>
       </ul>
 
-      <form className="navbar-form navbar-right">
-        <div className="form-group">
-          <input type="text" className="form-control" placeholder="Search"/>
+      <form classNameName="navbar-form navbar-right">
+        <div classNameName="form-group">
+          <input type="text" classNameName="form-control" placeholder="Search"/>
         </div>
-        <button type="submit" className="btn btn-primary">Search</button>
+        <button type="submit" classNameName="btn btn-primary">Search</button>
       </form>
 
 
