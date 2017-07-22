@@ -20,25 +20,25 @@ const HomePage = ()=>{
 
        <div className="carousel-inner" role="listbox">
          <div className="item active">
-           <img src={require('../../img/Chinese Painting/Qibaishi/秋叶草虫.jpg')} alt="..."/>
+           <img src={require('.././Qibaishi/秋叶草虫.jpg')} alt="..."/>
            <div className="carousel-caption">
              秋叶草虫
            </div>
          </div>
          <div className="item">
-           <img src={require("../../img/Chinese Painting/Qibaishi/贝叶草虫4.jpg")} alt="..."/>
+           <img src={require(".././Qibaishi/贝叶草虫4.jpg")} alt="..."/>
            <div className="carousel-caption">
              贝叶草虫
            </div>
          </div>
          <div className="item">
-           <img src={require("../../img/Chinese Painting/Qibaishi/贝叶蝉.jpg")} alt="..."/>
+           <img src={require(".././Qibaishi/贝叶蝉.jpg")} alt="..."/>
            <div className="carousel-caption">
              贝叶禅
            </div>
          </div>
          <div className="item">
-           <img src={require("../../img/Chinese Painting/Qibaishi/丝瓜小蜂.jpg")} alt="..."/>
+           <img src={require(".././Qibaishi/丝瓜小蜂.jpg")} alt="..."/>
            <div className="carousel-caption">
              丝瓜小蜂
            </div>
