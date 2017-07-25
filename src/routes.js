@@ -3,14 +3,14 @@ import React,{Component} from 'react';
 import {Route,IndexRoute} from 'react-router';
 
 import App from './component/App';
-import HomePage from './component/home/Home';
+import HomePage from './component/home/homePage';
 import AboutPage from "./component/about/AboutPage";
-import signin from "./component/sign in/signin";
+import signin from "./component/signIn/signInPage";
 
 import BowuPage from "./component/bowu/BowuPage";
-import SixuePage from "./component/Sixue/SixuePage";
+import SixuePage from "./component/sixue/SixuePage";
 import ZhenguiPage from "./component/zhengui/ZhenguiPage";
-import signup from "./component/sign up/signup";
+import signup from "./component/signUp/signUpPage";
 
 
 const routes =(
