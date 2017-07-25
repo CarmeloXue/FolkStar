@@ -6,6 +6,10 @@ import {Router,browserHistory} from 'react-router';
 import '../node_modules/jquery/dist/jquery.min';
 import '../node_modules/bootstrap/dist/js/bootstrap.min';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './styles/rd-navbar.css';
+import '../node_modules/swiper/dist/js/swiper.jquery.min';
+import '../node_modules/swiper/dist/css/swiper.min.css';
+
 render(
   <Router history={browserHistory} routes={routes}></Router>,
   document.getElementById("app")
