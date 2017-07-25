@@ -7,7 +7,7 @@ const signInForm = ({onChange,onConfirm,onCancel})=>{
         <div className="form-group">
           <label className="col-lg-2 col-md-2 text-to-right">用户名</label>
           <div className="col-lg-4 col-md-4">
-            <input type="text" name="userName" className="form-control" onChange={onChange}/>
+            <input type="text" name="userName" className="form-control" onChange={onChange} value={this.props}/>
           </div>
         </div>
 
@@ -27,11 +27,10 @@ const signInForm = ({onChange,onConfirm,onCancel})=>{
 
         <div className="form-group">
           <div className="col-lg-offset-2 col-md-offset-2">
-            <button className="btn btn-success" onclick={onConfirm}>确认注册</button>
+            <button className="btn btn-success" onClick={onConfirm}>确认注册</button>
             <button className="btn btn-default" onClick={onCancel}>取消</button>
           </div>
         </div>
-
       </form>
     </div>
 

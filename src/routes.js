@@ -5,11 +5,11 @@ import {Route,IndexRoute} from 'react-router';
 import App from './component/App';
 import HomePage from './component/home/homePage';
 import AboutPage from "./component/about/AboutPage";
-import Signin from "./component/signIn/signInPage";
+import Signin from "./component/signin/signInPage";
 import BowuPage from "./component/bowu/BowuPage";
-import SixuePage from "./component/sixue/SixuePage";
+import SixuePage from "./component/Sixue/SixuePage";
 import ZhenguiPage from "./component/zhengui/ZhenguiPage";
-import signup from "./component/signUp/signUpPage";
+import signup from "./component/signup/signUpPage";
 
 
 const routes =(
