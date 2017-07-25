@@ -21,7 +21,7 @@ class Header extends Component{
          </div>
 
          <ul className="nav navbar-nav">
-           <li><a href="sixue">思学</a></li>
+           <li className="active"><a href="sixue">思学</a></li>
            <li><a href="zhengui">珍贵</a></li>
            <li><a href="bowu">博物</a></li>
          </ul>

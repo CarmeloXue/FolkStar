@@ -3,3 +3,7 @@
   width: 60%;
   height: 35%;
 }
+
+.text-to-right{
+  text-align: end;
+}
