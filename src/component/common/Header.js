@@ -12,7 +12,7 @@ const Header = ()=>{
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="./bowu">博物</NavItem>
+          <NavItem eventKey={1} href="bowu">博物</NavItem>
           <NavItem eventKey={2} href="sixue">思学</NavItem>
           <NavItem eventKey={3} href="zhengui">珍柜</NavItem>
           <NavDropdown eventKey={3} title="关于" id="basic-nav-dropdown">

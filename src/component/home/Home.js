@@ -6,18 +6,18 @@ import '../../styles/HomePage.css';
 class HomePage extends React.Component{
 
   constructor(props){
-    super(props)
+    super(props);
   }
 
   componentDidMount(){
     let swiper = new Swiper(".swiper-container",{
-      autoplay:1000,
+      autoplay:2000,
       pagination:'.swiper-pagination',
-      paginationType:"bullets",
+      paginationType:"fade",
       nextButton:'.swiper-button-next',
       prevButton:'.swiper-button-prev',
       loop:true
-    })
+    });
   }
 
   render(){
@@ -25,20 +25,15 @@ class HomePage extends React.Component{
       <div className="swiper-container">
 
         <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <img src={require("../../img/Painting/Qibaishi/q1.jpg")} alt=""/>
-          </div>
-          <div className="swiper-slide">
-            <img src={require("../../img/Painting/Qibaishi/q2.jpg")} alt=""/>
-          </div>
-          <div className="swiper-slide">
-            <img src={require("../../img/Painting/Qibaishi/q3.jpg")} alt=""/>
-          </div>
+
           <div className="swiper-slide">
             <img src={require("../../img/Sight/s1.jpg")} alt=""/>
           </div>
           <div className="swiper-slide">
             <img src={require("../../img/Sight/s2.jpg")} alt=""/>
+          </div>
+          <div className="swiper-slide">
+            <img src={require("../../img/Sight/s3.jpg")} alt=""/>
           </div>
         </div>
 
@@ -47,7 +42,7 @@ class HomePage extends React.Component{
 
         <div className="swiper-pagination"></div>
       </div>
-    )
+    );
   }
 }
 

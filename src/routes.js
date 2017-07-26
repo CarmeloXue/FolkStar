@@ -8,7 +8,7 @@ import AboutPage from "./component/about/AboutPage";
 import signin from "./component/sign in/signin";
 
 import BowuPage from "./component/bowu/BowuPage";
-import SixuePage from "./component/Sixue/SixuePage";
+import SixuePage from "./component/sixue/SixuePage";
 import ZhenguiPage from "./component/zhengui/ZhenguiPage";
 import signup from "./component/sign up/signup";
 
