@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 class Header extends Component{
   constructor(props)
   {
-    super(props)
+    super(props);
   }
 
   render(){
@@ -41,7 +41,7 @@ class Header extends Component{
          </div>
        </div>
      </nav>
-    )
+    );
   }
 }
 export default Header;

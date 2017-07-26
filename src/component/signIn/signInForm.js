@@ -34,13 +34,13 @@ const signInForm = ({onChange,onConfirm,onCancel})=>{
       </form>
     </div>
 
-  )
-}
+  );
+};
 
 signInForm.propTypes = {
   onChange:React.PropTypes.func,
   onConfirm:React.PropTypes.func,
   onCancel:React.PropTypes.func
-}
+};
 
 export default signInForm;

@@ -6,7 +6,7 @@ import '../../styles/HomePage.css';
 class HomePage extends React.Component{
 
   constructor(props){
-    super(props)
+    super(props);
   }
 
   componentDidMount(){
@@ -17,7 +17,7 @@ class HomePage extends React.Component{
       nextButton:'.swiper-button-next',
       prevButton:'.swiper-button-prev',
       loop:true
-    })
+    });
   }
 
   render(){
@@ -54,12 +54,12 @@ class HomePage extends React.Component{
           <p>相关内容</p>
         </div>
       </div>
-    )
+    );
   }
 }
 
 HomePage.propTypes = {
 
-}
+};
 
 export default HomePage;
