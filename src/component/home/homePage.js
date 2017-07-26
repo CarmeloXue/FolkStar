@@ -28,19 +28,13 @@ class HomePage extends React.Component{
 
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <img src={require("../../img/Painting/Qibaishi/q1.jpg")} alt=""/>
-              </div>
-              <div className="swiper-slide">
-                <img src={require("../../img/Painting/Qibaishi/q2.jpg")} alt=""/>
-              </div>
-              <div className="swiper-slide">
-                <img src={require("../../img/Painting/Qibaishi/q3.jpg")} alt=""/>
-              </div>
-              <div className="swiper-slide">
                 <img src={require("../../img/Sight/s1.jpg")} alt=""/>
               </div>
               <div className="swiper-slide">
                 <img src={require("../../img/Sight/s2.jpg")} alt=""/>
+              </div>
+              <div className="swiper-slide">
+                <img src={require("../../img/Sight/s3.jpg")} alt=""/>
               </div>
             </div>
 

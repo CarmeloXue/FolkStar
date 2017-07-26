@@ -11,6 +11,7 @@ class HomePage extends React.Component{
 
   componentDidMount(){
     let swiper = new Swiper(".swiper-container",{
+
       autoplay:2000,
       pagination:'.swiper-pagination',
       paginationType:"fade",
@@ -18,6 +19,8 @@ class HomePage extends React.Component{
       prevButton:'.swiper-button-prev',
       loop:true
     });
+
+    swiper.container.css({opacity: 0.1});
   }
 
   render(){
