@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import $ from 'jquery';
 
 class Header extends Component{
   constructor(props)
@@ -21,9 +22,9 @@ class Header extends Component{
          </div>
 
          <ul className="nav navbar-nav">
-           <li className="active"><a href="sixue">思学</a></li>
-           <li><a href="zhengui">珍贵</a></li>
-           <li><a href="bowu">博物</a></li>
+           <li key="sixue"><a href="sixue">思学</a></li>
+           <li key="zhengui"><a href="zhengui">珍贵</a></li>
+           <li key="bowu"><a href="bowu">博物</a></li>
          </ul>
 
          <div className="collapse navbar-collapse navbar-right" id="collapse-area">
@@ -37,6 +38,7 @@ class Header extends Component{
 
            <ul className="nav navbar-nav navbar-right">
              <li><a href="signin">登录</a></li>
+             <li><a href="signup" className="btn btn-warning">注册</a></li>
            </ul>
          </div>
        </div>

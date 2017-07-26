@@ -11,8 +11,7 @@ class signInContainer extends Component{
       userReg:{
         id:"",
         userName:"",
-        password:"",
-        confirmPassword:""
+        password:""
       }
     };
 
@@ -76,28 +75,13 @@ class signInContainer extends Component{
             </div>
 
             <div className="form-group">
-              <label className="col-lg-2 col-md-2 text-to-right">密码确认</label>
-              <div className="col-lg-4 col-md-4">
-                <input type="password"
-                       name="confirmPassword"
-                       className="form-control"
-                       onChange={this.onChange}
-                       value={this.state.userReg.confirmPassword}
-                />
-              </div>
-            </div>
-
-            <div className="form-group">
               <div className="col-lg-offset-2 col-md-offset-2">
-                <button className="btn btn-success" onClick={this.onConfirm}>确认注册</button>
+                <button className="btn btn-success" onClick={this.onConfirm}>确认</button>
                 <button className="btn btn-default" onClick={this.onCancel}>取消</button>
               </div>
             </div>
           </form>
         </div>
-        <ul className="list-group">
-          {this.props.userReg.map(this.RegisteredUserList)}
-        </ul>
       </div>
     );
   }
