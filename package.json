@@ -18,15 +18,9 @@
     "jquery": "2.2.3",
     "mongo": "^0.1.0",
     "mongoose": "^4.11.3",
-<<<<<<< HEAD
-    "react": "^15.6.1",
-    "react-bootstrap": "^0.31.1",
-    "react-dom": "^15.6.1",
-=======
     "react": "15.3.0",
     "react-bootstrap": "^0.31.1",
     "react-dom": "15.3.0",
->>>>>>> 3686ecc71302c2cbe3f680210660c7388cb9bfb1
     "react-redux": "4.4.5",
     "react-responsive-carousel": "^3.1.24",
     "react-router": "2.5.2",
